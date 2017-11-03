@@ -1,0 +1,10 @@
+\BOOKMARK [1][-]{section.1}{Wstep}{}% 1
+\BOOKMARK [1][-]{section.2}{Identyfikacja parametr\363w systemu}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Obliczenie momentu bezw\233adnosci wahad\233a}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Identyfikacja modelu dynamiki w\363zka}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Tarcie statyczne}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Model matematyczny}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Wyprowadzenie modelu}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{R\363wnania stanu}{section.3}% 8
+\BOOKMARK [1][-]{section.4}{Regulator LQR}{}% 9
+\BOOKMARK [2][-]{subsection.4.1}{Linearyzacja}{section.4}% 10
