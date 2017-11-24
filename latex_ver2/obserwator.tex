@@ -1,0 +1,10 @@
+\section{Obserwator stanu}
+\subsection{Obserwator Luenbergera}
+Po szczegółowej analizie zarejestrowanych przebiegów zauważono duży wpływ szumu kwantyzacji na jakość regulacji, szczególnie w przypadku prędkości kątowej wahadła wyliczanej przez iloraz różnicowy położenia wahadła w kolejnych chwilach czasu. W celu wygładzenia przebiegu prędkości zaprojektowano obserwator Luenbergera dla systemu zlinearyzowanego w taki sposób, aby błąd estymacji prędkości dostatecznie szybko zdążał do zera. Doświadczalnie wyznaczono odpowiednie ujemne wartości własne macierzy:
+\begin{equation}  
+eig(A-LC) = \left\lbrace wartosci dopisac \right\rbrace 
+\end{equation} 
+Zdecydowano się na obserwator pełnego rzędu, natomiast do regulatora podano jedynie estymacje stanów obarczonych największym błędem pomiarowym - prędkości wahadła i wózka.
+% przebiegi porównawcze
+
+\subsection{Model ARMAX}
