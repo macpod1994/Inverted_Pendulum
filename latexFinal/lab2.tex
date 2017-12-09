@@ -2,9 +2,9 @@
 Przyjmując zerowy kąt wychylenia $\phi$ w górnym położeniu równowagi wahadła założono, że wartości rosną w kierunku matematycznie ujemnym (zgodnie z ruchem wskazówek zegara).  
 \begin{figure}[H]
 \centering
-\label{fig:www}
 \includegraphics[width=3cm]{obrazy/wozek2.png}
 \caption{Schemat wahadła na wózku}
+\label{fig:www}
 \end{figure}
 Na rysunku \ref{fig:www} zaznaczono kierunki mierzenia kąta wychylenia wahadła oraz położenia wózka.
 \subsection{Wyprowadzenie modelu}
@@ -27,20 +27,20 @@ Po przekształceniach układu \ref{eq:fiz}, mając na uwadze równanie dynamiki 
 W celu sprawdzenia poprawności wyprowadzonego modelu wygenerowano przykładowe sterowanie oraz porównano zarejestrowane przebiegi z modelowymi:
 \begin{figure}[H]
 \centering
-\label{fig:poW}
 \includegraphics[width=12cm]{obrazy/rad.png}
 \caption{Położenie kątowe wahadła}
+\label{fig:poW}
 \end{figure}
 \begin{figure}[H]
 \centering
-\label{fig:prW}
 \includegraphics[width=12cm]{obrazy/radPerSec.png}
 \caption{Prędkość kątowa wahadła}
+\label{fig:prW}
 \end{figure}
 \subsection{Równania stanu}
 Zidentyfikowany model dynamiki wózka oraz dynamiki wahadła pozwala na zapis równań stanu systemu w standardowej formie $\dot{\textbf{x}}=f(\textbf{x},u)$. Przyjmując następujące zmienne stanu:
 \begin{equation}
-\label{eq:rStan}
+\label{eq:rStan1}
 \begin{aligned}
 x_{1} = \phi \\
 x_{2} = \dot{\phi} \\
@@ -50,7 +50,7 @@ x_{4} = \dot{z}
 \end{equation}
 nieliniowe równania stanu przyjmują postać:
 \begin{equation}
-\label{eq:rStan}
+\label{eq:rStan2}
 \begin{aligned}
 &\dot{x_{1}} = x_2 \\
 &\dot{x_{2}} = \dfrac{mgl}{J_{sm}+ml^2}\sin x_1+\dfrac{mlc_1}{J_{sm}+ml^2}x_4\cos x_1-\dfrac{mlc_2}{J_{sm}+ml^2}u\cos x_1 \\
